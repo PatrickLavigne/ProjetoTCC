@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    font-size:medium;
+    color: white;
+}
+
+.botoes a {
+    color: black;
+    font-size: small;
+}
+
+body{
+    background-image: url(/img/fotomenulogin2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*
+.menu{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+} */
+
+.container{
+    background-color: rgb(57, 154, 240);
+    width: 30%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box1{
+    width: 80% ;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+
+}
+
+.senha{
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+}
+
+.box2{
+    width: 95%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.box3{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.box4{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

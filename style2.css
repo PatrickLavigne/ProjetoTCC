@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+h3{
+    color: white;
+}
+
+body{
+    background-image: url(/img/fotomenulogin2.jpg);
+    background-size:cover;
+    background-color: black;
+    width: 1015px;
+    height: 610px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.menu-principal{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aplicativo{
+    background-color: rgba(0, 0, 0, 0.952);
+    width: 100%;
+    height: 100%;
+    margin-top: 61x;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tela-principal{
+    position: absolute;
+    background-color: rgba(169, 169, 169, 0.199);
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex: row;
+    gap: 10px;
+}
+
+.tela-gps{
+    background-color: orange;
+    width: 75%;
+    height: 100%;
+    border-radius: 20px;
+
+}
+
+.tela-dados{
+    background-color: rgb(0, 0, 0);
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 20px;
+    gap: 20px;
+}
+
+.controle{
+    border-color: solid 10px white;
+
+}
+#txtBusca{
+    color: white;
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:226px;
+  }
+  
+  #btnBusca{
+    float:left;
+    cursor:pointer;
+  }
+  
+  #divBusca img{
+    float:left;
+  }
+  
+  #divBusca{
+    border:solid 2px rgba(47, 79, 79, 0.8);
+    border-radius:10px;
+    height:37px;
+    width:80%;
+  }
+
+.mapa {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+iframe {
+    position: absolute;            
+    top: -95px;
+    left: -25px;
+    width: 1024px;
+    height: 768px;
+}
